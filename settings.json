@@ -1,0 +1,13 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "extensions.ignoreRecommendations": true,
+    "git.ignoreMissingGitWarning": true,
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.tabs.enabled": false,
+    "latex-workshop.view.pdf.viewer": "external",
+}
