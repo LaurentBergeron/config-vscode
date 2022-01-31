@@ -10,4 +10,5 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.tabs.enabled": false,
     "latex-workshop.view.pdf.viewer": "external",
+    "python.terminal.activateEnvironment": false,
 }
