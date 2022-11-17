@@ -1,6 +1,6 @@
 {
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "extensions.ignoreRecommendations": true,
     "git.ignoreMissingGitWarning": true,
@@ -9,6 +9,27 @@
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.tabs.enabled": false,
-    "latex-workshop.view.pdf.viewer": "external",
     "python.terminal.activateEnvironment": false,
+    "editor.formatOnSave": true,
+    "recommendations": [
+        "dbankier.vscode-quick-select",
+        "eamodio.gitlens",
+        "earshinov.simple-alignment",
+        "leonhard-s.python-sphinx-highlight",
+        "maptz.camelcasenavigation",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "njpwerner.autodocstring",
+        "tomoki1207.vscode-input-sequence",
+        "wmaurer.change-case",
+    ],
+    "python.formatting.provider": "black",
+    "window.zoomLevel": 1,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.indexing": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticMode": "workspace",
 }
