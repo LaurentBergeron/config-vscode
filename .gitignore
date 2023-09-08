@@ -5,3 +5,5 @@
 !.gitignore
 !keybindings.json
 !settings.json
+!extensions.json
+!README.md
