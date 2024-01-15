@@ -1,0 +1,1 @@
+Put `extensions.json` into a `.vscode` folder inside a workspace to see the list of recommendations.
