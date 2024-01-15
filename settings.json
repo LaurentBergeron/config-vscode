@@ -10,7 +10,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.tabs.enabled": false,
     "python.terminal.activateEnvironment": false,
-    "editor.formatOnSave": true,
     "recommendations": [
         "dbankier.vscode-quick-select",
         "eamodio.gitlens",
@@ -27,9 +26,47 @@
         "wmaurer.change-case",
     ],
     "python.formatting.provider": "black",
-    "window.zoomLevel": 1,
-    "python.analysis.completeFunctionParens": true,
     "python.analysis.indexing": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.diagnosticMode": "workspace",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "cSpell.userWords": [
+        "automethod",
+        "bellpair",
+        "exdir",
+        "graphviz",
+        "iloc",
+        "noindex",
+        "qubit",
+        "qubits",
+        "rustworkx",
+        "show_rust_node_ids",
+        "simpy",
+        "tcell",
+        "travelling"
+    ],
+    "cSpell.customDictionaries": {},
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "black-formatter.importStrategy": "fromEnvironment",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#CE916A"
+                }
+            }
+        ]
+    },
+    "editor.accessibilitySupport": "off",
+    "notebook.output.scrolling": true,
+    "git.enableSmartCommit": true,
+    "editor.formatOnSave": true,
+    "git.openRepositoryInParentFolders": "never",
+    "html.format.enable": false,
+    "window.zoomLevel": 1
 }
