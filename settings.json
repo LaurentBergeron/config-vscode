@@ -7,10 +7,6 @@
     "files.associations": {
         "*.rmd": "markdown"
     },
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit",
-        "source.fixAll": "explicit"
-    },
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.tabs.enabled": false,
     "python.terminal.activateEnvironment": false,
@@ -49,6 +45,5 @@
     "window.zoomLevel": 1,
     "git.confirmSync": false,
     "github.copilot.nextEditSuggestions.enabled": true,
-    "ruff.lineLength": 120,
     "editor.defaultFormatter": "charliermarsh.ruff"
 }
