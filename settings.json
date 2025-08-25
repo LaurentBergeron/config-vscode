@@ -7,51 +7,30 @@
     "files.associations": {
         "*.rmd": "markdown"
     },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.tabs.enabled": false,
     "python.terminal.activateEnvironment": false,
-    "recommendations": [
-        "dbankier.vscode-quick-select",
-        "eamodio.gitlens",
-        "earshinov.simple-alignment",
-        "leonhard-s.python-sphinx-highlight",
-        "maptz.camelcasenavigation",
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "ms-toolsai.jupyter",
-        "ms-toolsai.jupyter-keymap",
-        "ms-toolsai.jupyter-renderers",
-        "njpwerner.autodocstring",
-        "tomoki1207.vscode-input-sequence",
-        "wmaurer.change-case",
-    ],
-    "python.formatting.provider": "black",
     "python.analysis.indexing": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.diagnosticMode": "workspace",
     "explorer.confirmDragAndDrop": false,
     "editor.minimap.enabled": false,
-    "cSpell.userWords": [
-        "automethod",
-        "bellpair",
-        "exdir",
-        "graphviz",
-        "iloc",
-        "noindex",
-        "qubit",
-        "qubits",
-        "rustworkx",
-        "show_rust_node_ids",
-        "simpy",
-        "tcell",
-        "travelling"
-    ],
-    "cSpell.customDictionaries": {},
+    "editor.formatOnSave": true,
     "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "black-formatter.importStrategy": "fromEnvironment",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit"
+    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -65,8 +44,11 @@
     "editor.accessibilitySupport": "off",
     "notebook.output.scrolling": true,
     "git.enableSmartCommit": true,
-    "editor.formatOnSave": true,
     "git.openRepositoryInParentFolders": "never",
     "html.format.enable": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "git.confirmSync": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "ruff.lineLength": 120,
+    "editor.defaultFormatter": "charliermarsh.ruff"
 }
