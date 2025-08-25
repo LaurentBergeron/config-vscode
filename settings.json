@@ -7,15 +7,48 @@
     "files.associations": {
         "*.rmd": "markdown"
     },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.tabs.enabled": false,
+    "python.terminal.activateEnvironment": false,
     "python.analysis.indexing": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.diagnosticMode": "workspace",
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#CE916A"
+                }
+            }
+        ]
+    },
+    "editor.accessibilitySupport": "off",
+    "notebook.output.scrolling": true,
     "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "never",
+    "html.format.enable": false,
     "window.zoomLevel": 1,
     "git.confirmSync": false,
-    "editor.multiCursorLimit": 50000,
-    "git.openRepositoryInParentFolders": "never",
-    "python.REPL.enableREPLSmartSend": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "ruff.lineLength": 120,
+    "editor.defaultFormatter": "charliermarsh.ruff"
 }
